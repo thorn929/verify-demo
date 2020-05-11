@@ -109,9 +109,7 @@ export default {
     msg: String
   },
   methods: {
-    test() {
-      let adddb;
-    }
+    test() {}
   }
 };
 </script>

@@ -107,6 +107,11 @@ export default {
   name: "HelloWorld",
   props: {
     msg: String
+  },
+  methods: {
+    test() {
+      let a;
+    }
   }
 };
 </script>

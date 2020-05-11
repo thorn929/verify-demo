@@ -110,7 +110,7 @@ export default {
   },
   methods: {
     test() {
-      let adb;
+      let adddb;
     }
   }
 };

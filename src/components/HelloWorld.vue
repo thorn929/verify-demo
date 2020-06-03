@@ -80,7 +80,7 @@ export default {
     test()   {
       let  obj  = { a: 2, b: 12}
       console.log(obj)
-      const x = obj + 5
+      const x =  obj + 5
       console.log(x)
 
       var obdj = { foo: 42}

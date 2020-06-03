@@ -1,7 +1,7 @@
 /*
  * @Author: zcy
  * @Date: 2020-05-11 16:02:29
- * @LastEditTime: 2020-06-03 15:34:29
+ * @LastEditTime: 2020-06-03 15:41:49
  * @LastEditors: zcy
  * @Description: eslint 配置
  */
@@ -30,6 +30,6 @@ module.exports = {
     // 要求在运算符之间加空格
     'space-infix-ops': 1,
     // 强制在对象字面量的键和值之间使用一致的空格
-    'key-spacing': ["error", { "beforeColon": false, "afterColon": true }]
+    'key-spacing': ["error", { "beforeColon": false, "afterColon": true }],
   }
 }

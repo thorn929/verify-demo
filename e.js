@@ -117,8 +117,6 @@ module.exports = {
     indent: [2, 4],
     // 要求或禁止 var 声明中的初始化(初值)
     'init-declarations': 2,
-    // 强制在 JSX 属性中一致地使用双引号或单引号
-    'jsx-quotes': 2,
     // 强制在对象字面量的属性中键和值之间使用一致的间距
     // 'key-spacing': [2, {'beforeColon': false,'afterColon': true}],
     // 行注释可以位于代码上方或旁边。该规则有助于团队保持一致的风格。
@@ -167,10 +165,6 @@ module.exports = {
     'no-await-in-loop': 0,
     // 禁用按位运算符
     'no-bitwise': 1,
-    // 不允许调用和构造Buffer()构造函数。
-    'no-buffer-constructor': 0,
-    // 禁用 arguments.caller 或 arguments.callee
-    'no-caller': 2,
     // 不允许在 case 子句中使用词法声明
     'no-case-declarations': 0,
     // 不允许 catch 子句的参数与外层作用域中的变量同名

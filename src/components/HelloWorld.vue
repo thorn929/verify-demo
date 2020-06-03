@@ -78,6 +78,7 @@ export default {
   },
   methods: {
     test() {
+
       let obj = { a: 2, b: 12 }
       console.log(obj)
     }

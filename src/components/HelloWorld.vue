@@ -29,7 +29,7 @@
         rel="noopener"
         target="_blank"
       >
-        vue-cli
+        vuecli
         documentation
       </a>
     </p>

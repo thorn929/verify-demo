@@ -86,7 +86,7 @@ export default {
       var obdj = { foo: 42}
       console.log(obdj)
       if (obj) {
-        console.log(3334)
+        console.log(332334)
       }
     }
   }

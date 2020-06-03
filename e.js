@@ -113,6 +113,8 @@ module.exports = {
     'id-match': 0,
     // 强制执行箭头函数体的位置,一个箭头函数体可以包含一个隐式返回，而不是一个块体。对隐式返回的表达式执行一致的位置可能很有用。
     'implicit-arrow-linebreak': 0,
+    // 强制执行一致的缩进
+    indent: [2, 4],
     // 要求或禁止 var 声明中的初始化(初值)
     'init-declarations': 2,
     // 强制在 JSX 属性中一致地使用双引号或单引号
@@ -502,6 +504,8 @@ module.exports = {
     'sort-keys': 0,
     // 要求同一个声明块中的变量按顺序排列
     'sort-vars': 0,
+    // 强制在块之前使用一致的空格
+    'space-before-blocks': [2, 'always'],
     // 强制在 function的左括号之前使用一致的空格
     'space-before-function-paren': [2, 'always'],
     // 强制在圆括号内使用一致的空格

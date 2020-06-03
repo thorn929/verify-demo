@@ -22,6 +22,8 @@ module.exports = {
     // 强制执行一致的缩进
     'indent': ['error', 2],
     // 强制在块之前使用一致的空格
-    'space-before-blocks': [2, 'always']
+    'space-before-blocks': [2, 'always'],
+    // 要求或禁止块内填充
+    'padded-blocks': 0
   }
 }

@@ -506,8 +506,6 @@ module.exports = {
     'space-before-function-paren': [2, 'always'],
     // 强制在圆括号内使用一致的空格
     'space-in-parens': [2, 'never'],
-    // 要求操作符周围有空格
-    'space-infix-ops': 2,
     // 强制在一元操作符前后使用一致的空格
     'space-unary-ops': 2,
     // 强制在注释中 // 或 /* 使用一致的空格

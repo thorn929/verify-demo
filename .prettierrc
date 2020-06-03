@@ -3,5 +3,6 @@
   "singleQuote": true,
   "tabWidth": 2,
   "bracketSpacing": true,
-  "eslintIntegration": true
+  "eslintIntegration": true,
+  "printWidth": 10
 }

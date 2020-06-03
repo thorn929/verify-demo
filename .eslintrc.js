@@ -1,7 +1,7 @@
 /*
  * @Author: zcy
  * @Date: 2020-05-11 16:02:29
- * @LastEditTime: 2020-06-03 15:52:07
+ * @LastEditTime: 2020-06-03 16:17:27
  * @LastEditors: zcy
  * @Description: eslint 配置
  */
@@ -18,11 +18,25 @@ module.exports = {
     'plugin:prettier/recommended'
   ],
   parserOptions: {
-    parser: 'babel-eslint'
+    parser:
+      'babel-eslint'
   },
   rules: {
-    'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off'
+    // 'prettier/prettier': "error",
+    'no-console':
+      process
+        .env
+        .NODE_ENV ===
+      'production'
+        ? 'warn'
+        : 'off',
+    'no-debugger':
+      process
+        .env
+        .NODE_ENV ===
+      'production'
+        ? 'warn'
+        : 'off'
     // 强制执行一致的缩进
     // 'indent': ['error', 2],
     // // 强制在块之前使用一致的空格

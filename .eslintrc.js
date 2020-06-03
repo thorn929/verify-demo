@@ -1,7 +1,7 @@
 /*
  * @Author: zcy
  * @Date: 2020-05-11 16:02:29
- * @LastEditTime: 2020-06-03 14:47:53
+ * @LastEditTime: 2020-06-03 14:52:00
  * @LastEditors: zcy
  * @Description: eslint 配置
  */
@@ -19,6 +19,9 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'indent': ['error', 2]
+    // 强制执行一致的缩进
+    'indent': ['error', 2],
+    // 强制在块之前使用一致的空格
+    'space-before-blocks': [2, 'always']
   }
 }

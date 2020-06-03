@@ -12,7 +12,7 @@
       a
       guide
       and
-      recipes
+      recipesd
       on
       how
       to

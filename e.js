@@ -121,8 +121,6 @@ module.exports = {
     'jsx-quotes': 2,
     // 强制在对象字面量的属性中键和值之间使用一致的间距
     // 'key-spacing': [2, {'beforeColon': false,'afterColon': true}],
-    // 强制在关键字前后使用一致的空格 (前后腰需要)
-    // 'keyword-spacing': [2, {'beforeColon': true, 'afterColon': true}],
     // 行注释可以位于代码上方或旁边。该规则有助于团队保持一致的风格。
     'line-comment-position': 0,
     // 强制使用一致的换行风格
@@ -456,8 +454,6 @@ module.exports = {
     'operator-assignment': 0,
     // 强制操作符使用一致的换行符
     'operator-linebreak': 0,
-    // 要求或禁止块内填充
-    'padded-blocks': 0,
     // 所有return语句之前需要空行，如换行前换行符规则。
     'padding-line-between-statements': 0,
     // 要求使用箭头函数作为回调

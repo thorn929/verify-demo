@@ -4,5 +4,5 @@
   "tabWidth": 2,
   "bracketSpacing": true,
   "eslintIntegration": true,
-  "printWidth": 10
+  "printWidth": 100
 }

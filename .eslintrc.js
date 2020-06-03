@@ -1,7 +1,7 @@
 /*
  * @Author: zcy
  * @Date: 2020-05-11 16:02:29
- * @LastEditTime: 2020-06-03 15:24:53
+ * @LastEditTime: 2020-06-03 15:32:18
  * @LastEditors: zcy
  * @Description: eslint 配置
  */
@@ -22,7 +22,7 @@ module.exports = {
     // 强制执行一致的缩进
     'indent': ['error', 2],
     // 强制在块之前使用一致的空格
-    'space-before-blocks': [2, 'always'],
+    'space-before-blocks': "error",
     // 强制块的开头结尾使用空白行
     'padded-blocks': ["error", "never"],
     // 强制关键字周围空格的一致性 if、function 等

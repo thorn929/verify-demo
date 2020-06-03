@@ -77,8 +77,8 @@ export default {
     msg: String
   },
   methods: {
-    test  () {
-      let obj = { a: 2, b: 12}
+    test() {
+      let obj  = { a: 2, b: 12}
       console.log(obj)
       const x = obj + 5
       console.log(x)

@@ -1,10 +1,20 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-05-11 17:29:53
+ * @LastEditTime: 2020-06-04 14:34:36
+ * @LastEditors: zcy
+ * @Description: In User Settings Edit
+ * @FilePath: /verify-demo/src/components/HelloWorld.vue
+-->
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,
       <img alt />
-      <a href="https://cli.vuejs.org" rel="noopener" target="_blank">vue-cli documentation</a>
+      <a href="https://cli.vuejs.org" rel="noopener" target="_blank"
+        >vue-cli documentation</a
+      >
     </p>
     <h3>Installed CLI Plugins</h3>
     <ul>
@@ -21,19 +31,29 @@
         <a href="https://vuejs.org" rel="noopener" target="_blank">Core Docs</a>
       </li>
       <li>
-        <a href="https://twitter.com/vuejs" rel="noopener" target="_blank">Twitter</a>
+        <a href="https://twitter.com/vuejs" rel="noopener" target="_blank"
+          >Twfitter</a
+        >
       </li>
       <li>
         <a href="https://news.vuejs.org" rel="noopener" target="_blank">News</a>
       </li>
     </ul>
-    <h3>Ecosystem</h3>
+    <h3>EcosysdEcosysddtemEcosysddtemEcosysddtemdtem</h3>
     <ul>
       <li>
-        <a href="https://router.vuejs.org" rel="noopener" target="_blank">vue-router</a>
+        <a
+          href="https://router.vuvuejsejsvuejs.org"
+          rel="noopener"
+          target="_blank"
+          >vue-router</a
+        >
       </li>
       <li>
-        <a href="https://github.com/vuejs/vue-devtools#vue-devtools" rel="noopener" target="_blank"
+        <a
+          href="https://github.com/vuejs/vue-devtools#vue-devtools"
+          rel="noopener"
+          target="_blank"
           >vue-devtools</a
         >
       </li>

@@ -12,6 +12,18 @@ module.exports = {
   // required to lint *.vue files
   // add your custom rules here
   rules: {
+    // 强制执行一致的缩进
+    // 'indent': ['error', 2],
+    // // 强制在块之前使用一致的空格
+    // 'space-before-blocks': "error",
+    // // 强制块的开头结尾使用空白行
+    // 'padded-blocks': ["error", "never"],
+    // // 强制关键字周围空格的一致性 if、function 等
+    // 'keyword-spacing': ["error", { "before": true , "after": false}],
+    // // 要求在运算符之间加空格
+    // 'space-infix-ops': 1,
+    // // 强制在对象字面量的键和值之间使用一致的空格
+    // 'key-spacing': ["error", { "beforeColon": false, "afterColon": true }],
     // 定义对象的set存取器属性时，强制定义get
     'accessor-pairs': 0,
     // 在数组括号内强制实现一致的间距。
@@ -113,14 +125,12 @@ module.exports = {
     'id-match': 0,
     // 强制执行箭头函数体的位置,一个箭头函数体可以包含一个隐式返回，而不是一个块体。对隐式返回的表达式执行一致的位置可能很有用。
     'implicit-arrow-linebreak': 0,
+    // 强制执行一致的缩进
+    indent: [2, 4],
     // 要求或禁止 var 声明中的初始化(初值)
     'init-declarations': 2,
-    // 强制在 JSX 属性中一致地使用双引号或单引号
-    'jsx-quotes': 2,
     // 强制在对象字面量的属性中键和值之间使用一致的间距
     // 'key-spacing': [2, {'beforeColon': false,'afterColon': true}],
-    // 强制在关键字前后使用一致的空格 (前后腰需要)
-    // 'keyword-spacing': [2, {'beforeColon': true, 'afterColon': true}],
     // 行注释可以位于代码上方或旁边。该规则有助于团队保持一致的风格。
     'line-comment-position': 0,
     // 强制使用一致的换行风格
@@ -167,10 +177,6 @@ module.exports = {
     'no-await-in-loop': 0,
     // 禁用按位运算符
     'no-bitwise': 1,
-    // 不允许调用和构造Buffer()构造函数。
-    'no-buffer-constructor': 0,
-    // 禁用 arguments.caller 或 arguments.callee
-    'no-caller': 2,
     // 不允许在 case 子句中使用词法声明
     'no-case-declarations': 0,
     // 不允许 catch 子句的参数与外层作用域中的变量同名
@@ -454,8 +460,6 @@ module.exports = {
     'operator-assignment': 0,
     // 强制操作符使用一致的换行符
     'operator-linebreak': 0,
-    // 要求或禁止块内填充
-    'padded-blocks': 0,
     // 所有return语句之前需要空行，如换行前换行符规则。
     'padding-line-between-statements': 0,
     // 要求使用箭头函数作为回调
@@ -502,12 +506,12 @@ module.exports = {
     'sort-keys': 0,
     // 要求同一个声明块中的变量按顺序排列
     'sort-vars': 0,
+    // 强制在块之前使用一致的空格
+    'space-before-blocks': [2, 'always'],
     // 强制在 function的左括号之前使用一致的空格
     'space-before-function-paren': [2, 'always'],
     // 强制在圆括号内使用一致的空格
     'space-in-parens': [2, 'never'],
-    // 要求操作符周围有空格
-    'space-infix-ops': 2,
     // 强制在一元操作符前后使用一致的空格
     'space-unary-ops': 2,
     // 强制在注释中 // 或 /* 使用一致的空格

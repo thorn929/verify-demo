@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-05-11 17:29:53
- * @LastEditTime: 2020-06-05 16:46:12
+ * @LastEditTime: 2020-06-08 19:46:08
  * @LastEditors: zcy
  * @Description: In User Settings Edi
 -->
@@ -18,7 +18,9 @@
         >vue-cli documentation</a
       >
     </p>
-    <h3>Installed CLI Plugins</h3>
+    <h3>
+      Installed CLI Plugins
+    </h3>
     <ul>
       <!-- 换行 -->
       <li>
@@ -41,7 +43,9 @@
         <a href="https://news.vuejs.org" rel="noopener" target="_blank">News</a>
       </li>
     </ul>
-    <h3>EcosysdEcosysddtemEcosysddtemEcosysddtemdtem</h3>
+    <h3>
+      EcosysdEcosysddtemEcosysddtemEcosysddtemdtem
+    </h3>
     <ul>
       <li>
         <a
@@ -53,7 +57,7 @@
       </li>
       <li>
         <a
-          href="https://github.com/vuejs/vue-devtools#vue-devtools"
+          href="https://github.com/vuejs/v-devtools"
           rel="noopener"
           target="_blank"
           >vue-devtools</a
@@ -74,7 +78,10 @@ export default {
   },
   methods: {
     test() {
-      let obj = { a: 2, b: 12 }
+      let obj = {
+        a: 2,
+        b: 12
+      }
       console.log(obj)
       const x = obj + 5
       console.log(x)

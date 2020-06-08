@@ -1,8 +1,8 @@
 /*
  * @Author: zcy
  * @Date: 2020-05-11 16:02:29
- * @LastEditTime: 2020-06-04 14:30:33
- * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2020-06-04 20:12:36
+ * @LastEditors: zcy
  * @Description: eslint 配置
  */
 module.exports = {
@@ -42,7 +42,7 @@ module.exports = {
   // required to lint *.vue files
   // plugins: ['vue', 'prettier'],
   rules: {
-    'no-console': 0
+    // 'no-console': 0,
     // 'prettier/prettier': [
     //   'error',
     //   {

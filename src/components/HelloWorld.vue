@@ -1,18 +1,20 @@
 <!--
  * @Author: your name
  * @Date: 2020-05-11 17:29:53
- * @LastEditTime: 2020-06-04 14:34:36
+ * @LastEditTime: 2020-06-05 16:46:12
  * @LastEditors: zcy
- * @Description: In User Settings Edit
- * @FilePath: /verify-demo/src/components/HelloWorld.vue
+ * @Description: In User Settings Edi
 -->
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      For a guide and recipes on how to configure / customize this project,
+      d For a guide and recipes on how to configure / customize this project,
       <img alt />
-      <a href="https://cli.vuejs.org" rel="noopener" target="_blank"
+      <a
+        href="https://cli.vuevuejsvuejsvuejsjs.org"
+        rel="dddddd"
+        target="_blank"
         >vue-cli documentation</a
       >
     </p>
@@ -76,6 +78,7 @@ export default {
       console.log(obj)
       const x = obj + 5
       console.log(x)
+
       let obdj = { foo: 42 }
       console.log(obdj)
       if (obj) {
